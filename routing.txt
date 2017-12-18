@@ -1,0 +1,22 @@
+sudo nano /etc/apache2/sites-available/000-default.conf
+
+
+
+<If "%{REMOTE_ADDR} == '195.138.*.*'">
+
+  Redirect "/" "http://52.212.*.*/"
+
+</If>
+
+<ElseIf "%{REMOTE_ADDR} == '109.190.*.*'">
+
+  Redirect "/" "http://52.212.*.*/"
+
+</ElseIf>
+
+<Else>
+
+ Redirect "/" "https://www.peyrouse-hair-shop.com/"
+
+
+</Else>
