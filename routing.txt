@@ -8,11 +8,11 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 </If>
 
-<ElseIf "%{REMOTE_ADDR} == '109.190.*.*'">
+# <ElseIf "%{REMOTE_ADDR} == '109.190.*.*'">
 
-  Redirect "/" "http://52.212.*.*/"
+#    Redirect "/" "http://52.212.*.*/"
 
-</ElseIf>
+# </ElseIf>
 
 <Else>
 
