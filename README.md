@@ -34,4 +34,4 @@ The Certbot packages on your system come with a cron job that will renew your ce
 ```
 $ sudo certbot renew --dry-run
 ```
-[More information](https://certbot.eff.org/).
+[More information](https://certbot.eff.org/)
