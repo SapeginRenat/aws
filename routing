@@ -16,7 +16,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 <Else>
 
- Redirect "/" "https://www.peyrouse-hair-shop.com/"
+ Redirect "/" "https://www.google.com/"
 
 
 </Else>
